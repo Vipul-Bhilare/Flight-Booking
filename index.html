@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flight Booking</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>Flight Booking</h1>
+<div class="container">
+  <form action="/" method="post">
+    <div class="form-group">
+      <label for="from">From</label>
+      <input type="text" class="form-control" id="from" name="from">
+    </div>
+    <div class="form-group">
+      <label for="to">To</label>
+      <input type="text" class="form-control" id="to" name="to">
+    </div>
+    <div class="form-group">
+      <label for="departure">Departure</label>
+      <input type="date" class="form-control" id="departure" name="departure">
+    </div>
+    <div class="form-group">
+      <label for="return">Return</label>
+      <input type="date" class="form-control" id="return" name="return">
+    </div>
+    <button type="submit" class="btn">Book Flight</button>
+  </form>
+</div>
+</body>
+</html>
